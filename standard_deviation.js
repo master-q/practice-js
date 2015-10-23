@@ -23,6 +23,6 @@ function standard_deviation(data)
     return Math.sqrt(varia);
 }
 
-data = new Array(-3, 13, 12, -9, 51, -7);
+data = [-3, 13, 12, -9, 51, -7];
 
 console.log('standard_deviation %d', standard_deviation(data));
